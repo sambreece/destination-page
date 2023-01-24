@@ -13,14 +13,28 @@ main {
 }
 
 article {
-    border: 1px solid;
     width: 45%;
 }
 
-#left-article {
+.with_border {
+    border: 1px solid;
+}
+
+#cards_heading {
+    border-color: salmon;
+    height: 5%;
+}
+
+#cards_container {
+    border-color: aqua;
+    height: 90%;
+    width: 100%;
+}
+
+#left_article {
     border-color: orange;
 }
 
-#right-article {
+#right_article {
     border-color: greenyellow;
 }
