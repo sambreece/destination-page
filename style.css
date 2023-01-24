@@ -1,3 +1,8 @@
+
+html {
+    box-sizing:border-box;
+}
+
 body {
     height: 100vh;
 }
@@ -12,12 +17,13 @@ main {
     justify-content: space-evenly;
 }
 
-article {
-    width: 45%;
-}
 
 .with_border {
     border: 1px solid;
+}
+
+article {
+    width: 45%;
 }
 
 #cards_heading {
@@ -28,7 +34,6 @@ article {
 #cards_container {
     border-color: aqua;
     height: 90%;
-    width: 100%;
 }
 
 #left_article {
@@ -37,4 +42,5 @@ article {
 
 #right_article {
     border-color: greenyellow;
+    font-family: 'Montserrat', sans-serif;
 }
