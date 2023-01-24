@@ -10,11 +10,12 @@ header {
 main {
     display: flex;
     height: 80%;
+    justify-content: space-between;
 }
 
 article {
     border: 1px solid;
-    width: 50%;
+    width: 45%;
 }
 
 #left-article {
