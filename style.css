@@ -3,9 +3,22 @@ body {
 }
 
 header {
-    height: 30%;
+    height: 20%;
 }
 
 main {
-    height: 70%;
+    display: flex;
+    height: 80%;
+}
+
+article {
+    border: 1px solid;
+}
+
+#left-article {
+    border-color: orange;
+}
+
+#right-article {
+    border-color: greenyellow;
 }
