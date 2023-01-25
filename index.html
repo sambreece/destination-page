@@ -29,7 +29,38 @@
     </header>
     <main>
             <article class="with_border" id="left_article">
-                Left article
+                <form action="">
+                    <label for="destination-name" class="form-label">Destination name</label>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" 
+                        placeholder="Enter the name of the destination." id="destination-name" aria-label="Enter name of destination"required>
+                      </div>
+                      
+                      <label for="destination-location" class="form-label">Location</label>
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" 
+                        placeholder="Where is it located?"
+                        id="destination-location"
+                        aria-label="Input location of vacation destination" required>
+                      </div>
+                    
+                      <label for="destination-photo" class="form-label">Photo</label>
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter an image URL of the destination."
+                        id="destination-photo"
+                        aria-label="Input URL of photo of vacation destination">
+                      </div>
+
+                      <label for="destination-description" class="form-label">Description</label>
+                      <div class="input-group">
+                        <textarea class="form-control" placeholder="Enter a description of the destination." 
+                        id="destination-description"
+                        aria-label="input description of vacation location"></textarea>
+                      </div>
+                      <div class="d-grid gap-2">
+                      <button type="button" class="btn btn-primary">Add to List</button>
+                    </div>
+                </form>
             </article>
             <article class="with_border" id="right_article">
                 <h3 class="" id="cards_heading">Enter destination details</h3>
