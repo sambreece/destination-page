@@ -3,19 +3,15 @@ html {
     box-sizing:border-box;
 }
 
-body {
+ body {
     height: 100vh;
-}
-
-header {
-    height: 20%;
 }
 
 main {
     display: flex;
-    height: 80%;
+    height: 75%;
     justify-content: space-evenly;
-}
+} 
 
 
 .with_border {
@@ -28,8 +24,8 @@ article {
 
 #cards_heading {
     border-color: salmon;
-    height: 5%;
-}
+    height: 10%;
+} 
 
 #cards_container {
     border-color: aqua;
@@ -44,4 +40,4 @@ article {
 #right_article {
     border-color: greenyellow;
     font-family: 'Montserrat', sans-serif;
-}
+} 
